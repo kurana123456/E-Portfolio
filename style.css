@@ -4,7 +4,7 @@
     font-family: font-family: 'Lato', sans-serif;
     padding: 0;
     margin: 0;
-    box- sizing: bordr-box;
+    box- size: border-box;
 }
 
 h1, h2, h3, h4, h5, h6, span{
@@ -34,6 +34,13 @@ nav{
     align-items: center;
 }
 
-.nav__link--lists{
+.nav__link--anchor{
+    margin: 0 12px;
+    color: #242424;
+    text-decoration: none;
+    font-weight: 700;
+}
 
+.nav__link--anchor-primary{
+    background-color: #6030b1;
 }
